@@ -47,7 +47,7 @@ module.exports = function(grunt){
 
             livereload:{
                 options:{
-                    liverload:'<%= connect.options.livereload %>'
+                    livereload:'<%= connect.options.livereload %>'
                 },
                 files:[
                     'index.html',

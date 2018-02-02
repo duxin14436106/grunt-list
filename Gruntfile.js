@@ -45,7 +45,7 @@ module.exports = function(grunt){
                 tasks:['concat','jshint','uglify']
             },
 
-            liverload:{
+            livereload:{
                 options:{
                     liverload:'<%= connect.options.livereload %>'
                 },
